@@ -24,6 +24,9 @@ sphinx-rtd-theme = "^2.0.0"
 toml-cli = "^0.6.0"
 pre-commit = "^3.6.1"
 
+[tool.mypy]
+exclude = "^docs/"
+
 [tool.ruff.lint]
 select = [
     "E", # pycodestyle Error
