@@ -6,3 +6,8 @@ repos:
         entry: bash -c 'poetry run ruff format . --preview && git add .'
         language: system
         files: '\.py$'
+      - id: sphinx-build
+        name: Build Sphinx docs
+        entry: bash -c 'poetry run sphinx-build -b html docs/source docs/build'
+        language: system
+        files: 'docs/source/.*\.rst$'
