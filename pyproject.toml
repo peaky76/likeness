@@ -1,13 +1,11 @@
 [tool.poetry]
-name = "python-template"
+name = "likeness"
 version = "0.1.0"
 description = ""
 authors = ["peaky76 <robertjamespeacock@gmail.com>"]
 license = "GPL-3.0-only"
 readme = "README.md"
-packages = [
-    { include = "python_template" }
-] # Rename this when the python_template folder is renamed
+packages = [{ include = "likeness" }]
 
 [tool.poetry.dependencies]
 python = "^3.11"
@@ -18,13 +16,13 @@ coverage = "^7.4.1"
 mypy = "^1.8.0"
 pytest = "^8.0.0"
 pytest-cov = "^4.1.0"
+radon = "^6.0.1"
 ruff = "^0.2.1"
 sphinx = "^7.2.6"
 sphinx-rtd-theme = "^2.0.0"
 toml-cli = "^0.6.0"
-radon = "^6.0.1"
 
-[tool.ruff]
+[tool.ruff.lint]
 select = [
     "E", # pycodestyle Error
     "F", # pyflakes
