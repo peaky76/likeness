@@ -24,17 +24,3 @@ class LikenessMixin:
                 )
 
         return prod(array([likeness_base, *factors]))
-
-
-def discount(calculation: float) -> float:
-    if calculation < 0:
-        raise ValueError("Discount function must return a value below 1")
-    return max(1 - calculation, 0)
-
-
-def ignore(a: object, b: object) -> float:
-    return 1
-
-
-def likeness(a: LikenessMixin, b: LikenessMixin) -> float:
-    return a.like(b)
