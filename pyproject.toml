@@ -22,6 +22,7 @@ ruff = "^0.2.1"
 sphinx = "^7.2.6"
 sphinx-rtd-theme = "^2.0.0"
 toml-cli = "^0.6.0"
+pre-commit = "^3.6.1"
 
 [tool.ruff.lint]
 select = [
