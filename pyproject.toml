@@ -9,6 +9,7 @@ packages = [{ include = "likeness" }]
 
 [tool.poetry.dependencies]
 python = "^3.11"
+numpy = "^1.26.4"
 
 [tool.poetry.group.dev.dependencies]
 auto-changelog = "^0.6.0"
