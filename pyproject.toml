@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "likeness"
-version = "1.0.0"
+version = "1.0.1"
 description = "A mixin that puts a number on object comparisons"
 authors = ["peaky76 <robertjamespeacock@gmail.com>"]
 license = "GPL-3.0-only"
