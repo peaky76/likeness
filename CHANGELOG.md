@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.2 (2024-02-15)
+
+#### Docs
+
+- fix `readthedocs` config
+
 ## 1.0.1 (2024-02-15)
 
 #### Docs
