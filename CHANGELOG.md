@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.0.1 (2024-02-15)
+
+#### Docs
+
+- `readthedocs` config
+
+#### Others
+
+- add description to `pyproject.toml`
+
 ## 1.0.0 (2024-02-14)
 
 #### New Features
