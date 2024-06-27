@@ -1164,13 +1164,13 @@ test = ["pytest"]
 
 [[package]]
 name = "toml-cli"
-version = "0.6.1"
+version = "0.7.0"
 description = "Command line interface to read and write keys/values to/from toml files"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "toml_cli-0.6.1-py3-none-any.whl", hash = "sha256:1aeba7a0aa21ee818051fc40211a79c0ce3041c3ebd96705110d782725120d71"},
-    {file = "toml_cli-0.6.1.tar.gz", hash = "sha256:7a7fb28f90c04519191752dacfbf823ab129edd658bd182bac2487d82d7917ed"},
+    {file = "toml_cli-0.7.0-py3-none-any.whl", hash = "sha256:49f460ead043a86cc859ef7d710a64b912ac3596700951c9fb18491382716907"},
+    {file = "toml_cli-0.7.0.tar.gz", hash = "sha256:e5afdcc8563b6c9dd9096b041c9fa8c9a100411325e76e5da56c060b64858a75"},
 ]
 
 [package.dependencies]
@@ -1261,4 +1261,4 @@ test = ["covdefaults (>=2.3)", "coverage (>=7.2.7)", "coverage-enable-subprocess
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "9c5a236bb61d87927c0fdcb4175a136418b8ed3df797b9177141d72a42b728be"
+content-hash = "9403a4de0dc15872e75c071e00362c80a77232f1b121cb611921f1655bb6ce68"
