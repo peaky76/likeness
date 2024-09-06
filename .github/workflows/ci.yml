@@ -37,7 +37,7 @@ jobs:
         run: poetry run pytest --cov-fail-under=100
 
       - name: Run linter
-        run: poetry run ruff .
+        run: poetry run ruff check .
 
       - name: Run static type checker
         run: poetry run mypy .
