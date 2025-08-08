@@ -22,7 +22,7 @@ radon = "^6.0.1"
 ruff = ">=0.2.1,<0.13.0"
 sphinx = ">=7.2.6,<9.0.0"
 sphinx-rtd-theme = ">=2,<4"
-toml-cli = ">=0.6,<0.8"
+toml-cli = ">=0.6,<0.9"
 
 [tool.mypy]
 exclude = "^docs/"
