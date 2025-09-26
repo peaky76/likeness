@@ -1402,14 +1402,14 @@ test = ["pytest"]
 
 [[package]]
 name = "toml-cli"
-version = "0.8.1"
+version = "0.8.2"
 description = "Command line interface to read and write keys/values to/from toml files"
 optional = false
 python-versions = ">=3.10"
 groups = ["dev"]
 files = [
-    {file = "toml_cli-0.8.1-py3-none-any.whl", hash = "sha256:ebd1672e2b512022c4db2ba01658bff17ec9bb868b64ddee29484d1517ce0d98"},
-    {file = "toml_cli-0.8.1.tar.gz", hash = "sha256:cb97d2fb265d6838db998625b97e45a0831c8ac3ee643e7566539f9473ef5286"},
+    {file = "toml_cli-0.8.2-py3-none-any.whl", hash = "sha256:7af4679ca04c53ad0f6d300dab26f45a78fedf88e8310305bfe0a8ead37fd000"},
+    {file = "toml_cli-0.8.2.tar.gz", hash = "sha256:ec61fbfe5f0d6f2d6bfd9e1127cad38a797b8685a93589f2e22efd168b0cc866"},
 ]
 
 [package.dependencies]
