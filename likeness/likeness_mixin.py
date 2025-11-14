@@ -1,4 +1,5 @@
-from typing import Callable, ClassVar, Self
+from collections.abc import Callable
+from typing import ClassVar, Self
 
 from numpy import array, prod
 

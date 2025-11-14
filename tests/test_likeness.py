@@ -1,5 +1,6 @@
 import operator
-from typing import Callable, ClassVar
+from collections.abc import Callable
+from typing import ClassVar
 
 from likeness import LikenessMixin, likeness
 
